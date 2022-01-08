@@ -6,9 +6,9 @@
   HINT: You will need to use .substring() twice
 */
 
-let statement = "I do not like programming";
+const statement = "I do not like programming";
 
-let result = "";
+let result = statement.substring(0, 4) + statement.substring(8);
 
 console.log(result);
 
